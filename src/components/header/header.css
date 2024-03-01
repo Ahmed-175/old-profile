@@ -1,0 +1,57 @@
+:root {
+  --green: #00e77f;
+  --white: #fff;
+  --light-white: #aaa;
+  --black: #0b0b0b;
+  --light-bg: #0b0b0b;
+  --blue-color: rgba(0, 142, 236, 0.815);
+  --pink-color: rgb(200, 80, 192);
+  --green-color: #05c46b;
+  --blue-light-color: #45f3ff;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  height: 5.5rem;
+  background-color: var(--black);
+  box-shadow: 0 0 30px 5px var(--blue-color);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header a.logo {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: var(--blue-light-color);
+  animation: left  linear  .9s ;
+}
+.share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: right  linear  .9s ;
+}
+
+.share a {
+  position: relative;
+  border-radius: 50%;
+  background-color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0);
+  color: var(--color);
+  font-size: 1.5rem;
+  margin-right: 3rem;
+  padding: 10px;
+  right: -150px;
+}
+
+.share a:hover {
+  background-color: var(--color);
+  color: #050801;
+  box-shadow: 0 0 5px var(--color), 0 0 25px var(--color), 0 0 50px var(--color),
+    0 0 200px var(--color);
+}

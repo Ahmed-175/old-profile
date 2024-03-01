@@ -1,0 +1,83 @@
+:root {
+  --green: #00e77f;
+  --white: #fff;
+  --light-white: #aaa;
+  --black: #0b0b0b;
+  --light-bg: #0b0b0b;
+  --blue-color: rgba(0, 142, 236, 0.815);
+  --pink-color: rgb(200, 80, 192);
+  --green-color: #05c46b;
+  --blue-light-color: #45f3ff;
+}
+
+#services {
+  width: 100%;
+  text-align: center;
+  z-index: 20;
+}
+#services h1 {
+  font-size: 3rem;
+  color: var(--blue-light-color);
+  position: relative;
+  right: -50px;
+  bottom: -140px;
+}
+
+.ser {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2rem;
+  height: 70vh;
+  position: relative;
+  position: relative;
+  right: -50px;
+  bottom: -140px;
+}
+
+.card-ser {
+  position: relative;
+  width: 30%;
+  height: 30rem;
+  border: 2px solid var(--green);
+  box-shadow: 0 0 10px 1px var(--green);
+  right: -1rem;
+  text-align: center;
+  border-radius: 2rem;
+  animation: ahme linear 6s infinite;
+  transition: 0.5s;
+}
+
+.card-ser:hover {
+  width: 31%;
+  height: 30.5rem;
+  border: 2px solid var(--blue-light-color);
+  box-shadow: 0 0 10px 1px var(--blue-color);
+}
+.card-ser i {
+  font-size: 5rem;
+  color: var(--blue-color);
+  margin: 2.2rem 0;
+}
+.card-ser .btton {
+  left: -50px;
+  padding: 20px 90px;
+  bottom: -100px;
+}
+.card-ser p {
+  position: relative;
+  bottom: -50px;
+}
+
+@keyframes ahme {
+  0% {
+    transform: translateY(15px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}

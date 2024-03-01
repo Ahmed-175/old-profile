@@ -1,0 +1,37 @@
+:root {
+  --green: #00e77f;
+  --white: #fff;
+  --light-white: #aaa;
+  --black: #0b0b0b;
+  --light-bg: #0b0b0b;
+  --blue-color: rgba(0, 142, 236, 0.815);
+  --pink-color: rgb(200, 80, 192);
+  --green-color: #05c46b;
+  --blue-light-color: #45f3ff;
+}
+.side-bar {
+  width: 7.5%;
+  height: 100vh;
+  border-top: none;
+  box-shadow: 2px 25px 30px 5px var(--blue-color);
+  position: fixed;
+  z-index: 1001;
+  background-color: var(--black);
+  margin-top: 5.5rem;
+  text-align: center;
+
+}
+.side-bar a {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 3.1rem;
+  margin-top: 0.5rem;
+  transition: 0.8s;
+  animation: top  linear  .9s ;
+}
+
+.side-bar a:hover{
+      color: #b0e633;
+      font-size:1.3rem ;
+}
+
